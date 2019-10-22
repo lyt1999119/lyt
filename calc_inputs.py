@@ -9,7 +9,7 @@ def calc(a,b,c):
         x1=-b/2*a
         x2=x1
     if key<0:
-        print('方程无解‘）
+        print('方程无解'）
         return(None,None)
     return(x1,x2)
 print(calc(a,b,c))
